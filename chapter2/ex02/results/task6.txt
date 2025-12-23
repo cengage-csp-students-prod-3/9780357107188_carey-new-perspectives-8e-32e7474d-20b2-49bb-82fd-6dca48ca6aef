@@ -1,0 +1,21 @@
+
+Status: FAILED!
+Check: 1
+Test: For `ul` elements nested within the `nav` element, set the `list-style-type` to none.
+Reason: Assertion failed: Style rule not applied to ul elements, expected list-style-type: none but found disc
+Error : AssertionError - Style rule not applied to ul elements, expected list-style-type: none but found disc
+Timestamp: 2025-12-23 18:23:23.193597
+
+Status: FAILED!
+Check: 2
+Test: For `ul` elements nested within the `nav` element, set the `line-height` to **2em**.
+Reason: Assertion failed: Style rule not applied to ul elements, expected line-height: 32px (2em) but found normal
+Error : AssertionError - Style rule not applied to ul elements, expected line-height: 32px (2em) but found normal
+Timestamp: 2025-12-23 18:23:23.216569
+
+Status: FAILED!
+Check: 3
+Test: For all hypertext links in the document, set the `color` to ivory and set the `text-decoration` to none.
+Reason: Assertion failed: Style rule not applied to a elements, expected color: rgba(255, 255, 240, 1) (ivory) but found rgba(0, 0, 238, 1)
+Error : AssertionError - Style rule not applied to a elements, expected color: rgba(255, 255, 240, 1) (ivory) but found rgba(0, 0, 238, 1)
+Timestamp: 2025-12-23 18:23:23.232604

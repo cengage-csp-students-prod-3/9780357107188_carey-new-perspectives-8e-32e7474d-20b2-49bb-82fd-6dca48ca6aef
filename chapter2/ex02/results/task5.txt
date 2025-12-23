@@ -1,0 +1,13 @@
+
+Status: PASSED!
+Check: 1
+Test: For `h1` headings that are direct children of the `article` element set the `font-size` to 2.0em.
+Reason: None
+Timestamp: 2025-12-23 18:23:22.144381
+
+Status: FAILED!
+Check: 2
+Test: For `h1` headings that are direct children of the `article` element set the `font-family` to cursive.
+Reason: Assertion failed: Style rule not applied to h1 headings, expected font-family: cursive but found "Times New Roman"
+Error : AssertionError - Style rule not applied to h1 headings, expected font-family: cursive but found "Times New Roman"
+Timestamp: 2025-12-23 18:23:22.161906
